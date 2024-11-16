@@ -20,10 +20,10 @@ app.whenReady().then(() => {
   win.webContents.on('dom-ready', () => {
     win.webContents.executeJavaScript(`
       // カスタムプロパティの値を変更
-      document.documentElement.style.setProperty('--main-surface-primary', '#4c566a50');
-      document.documentElement.style.setProperty('--main-surface-secondary', '#343a4050');
-      document.documentElement.style.setProperty('--sidebar-surface-primary', '#4c566a50');
-      document.documentElement.style.setProperty('--sidebar-surface-secondary', '#343a4050');
+      document.documentElement.style.setProperty('--main-surface-primary', '#49505750');
+      document.documentElement.style.setProperty('--main-surface-secondary', '#49505750');
+      document.documentElement.style.setProperty('--sidebar-surface-primary', '#49505750');
+      document.documentElement.style.setProperty('--sidebar-surface-secondary', '#49505750');
       document.documentElement.style.setProperty('--text-primary', '#ffffff');
       document.documentElement.style.setProperty('--text-secondary', '#d8dee9');
       document.documentElement.style.setProperty('--text-tertiary', '#d8dee9');
@@ -36,18 +36,19 @@ app.whenReady().then(() => {
 
       // code block
       .dark\\:bg-gray-950:is(.dark *) {
-        background-color: #4c566a50 !important;
+        background-color: #343a4050 !important;
       }
+      // sidebar-item-focused
       .bg-token-sidebar-surface-primary {
-        background-color: #4c566a50 !important;
+        background-color: #49505750 !important;
       }
 
       // code line
       .dark\\:prose-invert:is(.dark *) :where(code):not(:where([class~=not-prose] *)) {
-        background-color: #4c566a50 !important;
+        background-color: #343a4030 !important;
       }
       .dark\\:prose-invert:is(.dark *) :where(code):not(:where([class~=not-prose] *)) {
-        background-color: #4c566a50 !important;
+        background-color: #343a4030 !important;
       }
 
       // sidemenu itemのグラデーションを削除
