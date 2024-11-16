@@ -1,0 +1,14 @@
+{
+    "name": "chatgpt-app",
+    "productName": "ChatGPT",
+    "version": "1.0.0",
+    "description": "ChatGPT is a chatbot that uses GPT-3 to generate responses to your messages. It is a desktop application built with Electron.",
+    "main": "main.js",
+    "scripts": {
+      "start": "/usr/lib/electron32/electron ."
+     },
+    "devDependencies": {
+      "electron": "^22.0.0"
+    }
+  }
+  
