@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ChatGPT
+Comment=ChatGPT Desktop Application
+Exec=/usr/lib/electron32/electron /home/akidoki/.local/share/applications/ChatGPT
+Icon=~/.local/share/applications/ChatGPT/chatgpt.png
+Type=Application
+Terminal=false
+StartupWMClass=ChatGPT
+Categories=Development;AI;Utility;
+MimeType=x-scheme-handler/http;x-scheme-handler/https;
